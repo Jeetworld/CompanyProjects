@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="150" started-at="2019-04-01T21:32:26Z" finished-at="2019-04-01T21:32:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="150" started-at="2019-04-01T21:32:26Z" finished-at="2019-04-01T21:32:26Z">
+      <class name="FirstPackage.FourthClass">
+        <test-method status="PASS" signature="datap(java.lang.String, java.lang.String)[pri:0, instance:FirstPackage.FourthClass@3fee9989]" name="datap" duration-ms="33" started-at="2019-04-01T16:32:26Z" data-provider="seen" finished-at="2019-04-01T16:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datap -->
+        <test-method status="PASS" signature="datap(java.lang.String, java.lang.String)[pri:0, instance:FirstPackage.FourthClass@3fee9989]" name="datap" duration-ms="2" started-at="2019-04-01T16:32:26Z" data-provider="seen" finished-at="2019-04-01T16:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[third]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fourth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datap -->
+      </class> <!-- FirstPackage.FourthClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
